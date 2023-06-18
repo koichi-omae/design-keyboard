@@ -28,11 +28,14 @@
     "next": "13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "three": "^0.153.0",
     "typescript": "5.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
     "@babel/preset-env": "^7.21.4",
+    "@react-three/drei": "^9.76.0",
+    "@react-three/fiber": "^8.13.3",
     "@storybook/addon-essentials": "^7.0.2",
     "@storybook/addon-interactions": "^7.0.2",
     "@storybook/addon-links": "^7.0.2",
@@ -45,6 +48,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.5.0",
+    "@types/three": "^0.152.1",
     "autoprefixer": "^10.4.14",
     "babel-jest": "^29.5.0",
     "eslint": "^8.38.0",
