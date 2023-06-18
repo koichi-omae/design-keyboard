@@ -1,0 +1,13 @@
+import { ComponentMeta, Story } from '@storybook/react';
+import { {{pascalCase name}}, {{pascalCase name}}Props } from './{{pascalCase name}}';
+import { propObj } from './{{pascalCase name}}.props';
+
+export default {
+  title: '{{pascalCase project}}/{{type}}/{{pascalCase name}}',
+  component: {{pascalCase name}},
+} as ComponentMeta<typeof {{pascalCase name}}>;
+
+const Template: Story<{{pascalCase name}}Props> = (args) => <{{pascalCase name}} {...args} />;
+
+export const Default = Template.bind({});
+Default.args = propObj.default;

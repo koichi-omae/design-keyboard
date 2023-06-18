@@ -1,0 +1,16 @@
+import { render, screen } from '@testing-library/react';
+import { {{pascalCase name}}, {{pascalCase name}}Props, baseId } from './';
+import { propObj } from './{{pascalCase name}}.props';
+
+let props: {{pascalCase name}}Props;
+
+describe('default', () => {
+  beforeEach(() => {
+    props = propObj.default;
+  });
+
+  it('default の props に対するテストケースを書くこと', () => {
+    render(<{{pascalCase name}} {...props} />);
+    expect(screen.getByTestId(baseId)).toBeInTheDocument();
+  });
+});
